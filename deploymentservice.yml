@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nodeapp
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nodeapp
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: laxmi4u/nodeapp:v2
+        image: laxmi4u/nodeapp:v3
         ports:
         - containerPort: 3000
         
