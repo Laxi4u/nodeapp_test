@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: laxmi4u/nodeapp:latest
+        image: laxmi4u/nodeapp:v1
         ports:
         - containerPort: 3000
         
